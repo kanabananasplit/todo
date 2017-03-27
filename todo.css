@@ -1,0 +1,70 @@
+p {
+  font-size: 14px;
+  font-weight: bold;
+  font-family:Sans-serif;
+}
+
+#todotext {
+  font-size: 10px;
+  font-family:Sans-serif;
+  width: 180px;
+  padding: 3px 10px; /*inside above/below, and inside from alignment*/
+  margin: 0px 0px; /*spacing from above line, and from where aligned*/
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+button {
+  font-size: 10px;
+  font-family:Sans-serif;
+  background-color: #4CAF50;
+  color: white;
+  padding: 3px 15px 3px 15px; /*top right bottom left*/
+  border-radius: 4px; /*softens corners*/
+  border: none; /*gets rid of border*/
+  cursor: pointer; /*can click*/
+}
+
+#newDiv {
+  font-size: 10px;
+  font-family:Sans-serif;
+  width: 230px;
+  padding: 2px 5px; /*inside above/below, and inside from alignment*/
+  border: 1px solid black;
+}
+
+
+#taskList {
+   list-style-type: none;
+}
+
+li text{
+  font-size: 10px;
+  font-family:Sans-serif;
+  background-color: #ffffff;
+  padding: 0 5px 0 5px;
+  position: relative;
+  margin: 10px;
+}
+
+li edity{
+  font-size: 10px;
+  font-family:Sans-serif;
+  color: #48D1CC;
+  padding: 0px 5px 0px 5px;
+  position: relative;
+  cursor: pointer;
+  float: right;
+}
+
+li deletey{
+  font-size: 10px;
+  font-family:Sans-serif;
+  color: #48D1CC;
+  padding: 0px 5px 0px 5px;
+  position: relative;
+  cursor: pointer;
+  float: right;
+}
+
+
