@@ -4,7 +4,7 @@ p {
   font-family:Sans-serif;
 }
 
-#todotext {
+#todoTextbox {
   font-size: 10px;
   font-family:Sans-serif;
   width: 180px;
@@ -25,7 +25,7 @@ button {
   cursor: pointer; /*can click*/
 }
 
-#newDiv {
+#taskTextbox {
   font-size: 10px;
   font-family:Sans-serif;
   width: 230px;
@@ -34,7 +34,7 @@ button {
 }
 
 
-#taskList {
+#newTask {
    list-style-type: none;
 }
 
@@ -67,4 +67,10 @@ li deletey{
   float: right;
 }
 
+.formatHere {
+  text-decoration: line-through;
+}
 
+.nothingChange{
+  text-decoration: none;
+}
