@@ -8,16 +8,19 @@
   
   <body>
     <p>To-Do List</p><br/>
-    <input type="text" id="todotext" name="toDoList" placeholder="To-do" onkeypress=handle(event)>
+    <input type="text" id="todoTextbox" name="todoTextbox" placeholder="To-do" onkeyup="handleNewTodoTextboxKeypress(event)">
     
-    <button id="click">ADD</button><br/><br/>
+    <button id="todoButton">ADD</button><br/><br/>
 
-    <div id="newDiv">Tasks: <br/>
-      <ul id="taskList">
+    <div id="taskTextbox">Tasks: <br/>
+      <ul id="newTask">
         <!--this is where the tasks are written-->
       </ul>
     </div>
-  <script type="text/javascript" src="todo.js">
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="todo.js">
+    </script>
 </body>
 </html>
+
+
